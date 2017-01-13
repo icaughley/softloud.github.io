@@ -1,0 +1,22 @@
+---
+title: "Young Statisticians Conference 2017"
+author: "Statistical Society of Australia"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+Some welcome stuff.
+
+```{r, echo = F}
+iris %>% 
+  ggplot(
+    aes(x = Petal.Length,
+        y = Petal.Width,
+        colour = Species)
+  ) +
+  geom_point()
+```
+

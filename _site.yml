@@ -1,0 +1,16 @@
+name: "YSC2017"
+output_dir: "."
+navbar:
+  title: "Statistical Society of Australia YSC 2017"
+  left:
+    - text: "Welcome"
+      href: index.html # Must be called index for site to render.
+    - text: "Venue, accommodation, travel"
+      href: venue.html
+    - text: "Program"
+      href: program.html
+    - text: "Social events"
+      href: social.html
+output:
+  html_document:
+    toc_float: T
